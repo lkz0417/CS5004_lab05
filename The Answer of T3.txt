@@ -1,0 +1,6 @@
+(1) If AbstractShape.java exists, we can only modify the compareTo method in the abstract class
+AbstractShape.java, change the logic of comparison.
+
+(2) If AbstractShape.java doesn't exist, we need to modify the compareTo method ,change the logic
+ of comparison in every concrete class(rectangle, triangle, circle) and make them implements the
+ Comparable interface.
